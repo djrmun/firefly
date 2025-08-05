@@ -1,0 +1,6 @@
+pycurl
+PyYAML
+schedule
+pandas
+matplotlib
+certifi
