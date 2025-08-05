@@ -1,0 +1,20 @@
+# Configuration for Firefly Network Performance Monitor
+
+# List of URLs to monitor
+urls:
+  - https://www.google.com
+  - https://www.github.com
+  - https://www.python.org
+
+# Schedule for running the checks, in seconds
+schedule:
+  interval_seconds: 60
+
+# Database file
+database:
+  file: "firefly_metrics.db"
+
+# (Optional) Proxy configuration
+# proxy:
+#   http: "http://user:pass@host:port"
+#   https: "https://user:pass@host:port"
